@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
-df = pd.read_csv("dataSet/student-scores.csv")
+df = pd.read_csv("student-scores.csv")
 
 print(df.head())
 
